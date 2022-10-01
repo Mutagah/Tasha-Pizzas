@@ -30,7 +30,7 @@ pizza8 = Pizza.create(type_of_pizza:"St. Louis Pizza")
 
 puts "Seeding Restaurant table"
 30.times do
-    Restaurant.create(name: Faker::Restaurant.name, location: location.sample, phone_number: "+#{rand(254700000000..254799999999)}"
+    Restaurant.create(name: Faker::Restaurant.name, location: location.sample, phone_number: "#{rand(254700000000..254799999999)}"
     )
 end
 
