@@ -7,7 +7,6 @@ rescue_from ActiveRecord::RecordInvalid, with: :invalid_record
     def create
         restaurant_pizza = RestaurantPizza.create!(restaurant_params)
         pizza_record = Pizza.find(restaurant_pizza.pizza_id)
-        # byebug
         render json: pizza_record,status: :created
     end
 
