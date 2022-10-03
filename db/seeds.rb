@@ -12,21 +12,21 @@ location = ["Nairobi", "Mombasa", "Kisumu","Nakuru", "Eldoret", "Machakos", "Thi
 
 puts "Seeding Pizza table"
 
-pizza1 = Pizza.create(type_of_pizza:"Neapolitan Pizza")
+pizza1 = Pizza.create(name:"Neapolitan Pizza",ingredients:"raw tomatoes, fresh mozzarella cheese, fresh basil")
 
-pizza2 = Pizza.create(type_of_pizza:"Chicago Pizza")
+pizza2 = Pizza.create(name:"Chicago Pizza",ingredients:"mozzarella cheese, sausage")
 
-pizza3 = Pizza.create(type_of_pizza:"New York-Style Pizza")
+pizza3 = Pizza.create(name:"New York-Style Pizza",ingredients:"tomato sauce, mozzarella cheese")
 
-pizza4 = Pizza.create(type_of_pizza:"Silican Pizza")
+pizza4 = Pizza.create(name:"Sicilian Pizza",ingredients:"meatless sauce from tomatoes,herbs and anchovies,caciocavallo cheese")
 
-pizza5 = Pizza.create(type_of_pizza:"Greek Pizza")
+pizza5 = Pizza.create(name:"Greek Pizza", ingredients:"roasted red peppers, artichokes, olive and basil")
 
-pizza6 = Pizza.create(type_of_pizza:"California Pizza")
+pizza6 = Pizza.create(name:"California Pizza",ingredients:"goat cheese,peanut sauce,artichoke hearts")
 
-pizza7 = Pizza.create(type_of_pizza:"Detriot Pizza")
+pizza7 = Pizza.create(name:"Detriot Pizza",ingredients:"Wisconsin brick cheese, cooked tomato-based sauce")
 
-pizza8 = Pizza.create(type_of_pizza:"St. Louis Pizza")
+pizza8 = Pizza.create(name:"St. Louis Pizza",ingredients:"Provel, crushed tomatoes,oregano")
 
 puts "Seeding Restaurant table"
 30.times do
