@@ -4,7 +4,7 @@
 
 ## Project Description
 
-Tasha Pizzas is a backend application that hold models , controllers with action meant to render data to be used in the development of a web page.
+Tasha Pizzas is a backend application that hold models , controllers with actions meant to render data to be used in the development of a web page.
 
 ## Project Setup Instructions
 
